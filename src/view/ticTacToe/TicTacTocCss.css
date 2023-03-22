@@ -1,0 +1,29 @@
+.square{
+    float: left;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    width:34px;
+    height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+.board-row button{
+    border-radius: 0 !important;
+}
+.board-row:after,.game-container:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+.board-row button:focus,button:focus-visible {
+    outline: none !important;
+}
+.board-row button:hover {
+    border-color: #000;
+}
+.game-board,.grame-info{
+    float: left;
+    width: 13%;
+}
